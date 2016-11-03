@@ -1,12 +1,11 @@
 use babel write ES6
 ===================
 
-1. 
 ```
     npm install --save-dev babel-cli
 ```
     
-2. 
+
 ```
     {
         "name": "my-project",
@@ -20,12 +19,12 @@ use babel write ES6
       }
 ```
     
-3. 
+
 ```
     npm install babel-preset-es2015 --save-dev
 ```
     
-4. new .babelrc doc
+ new .babelrc doc
 ```
     {
       "presets": ["es2015"]
@@ -33,9 +32,12 @@ use babel write ES6
           
 ```
    
-5. 
+
 ```
         npm run build
 ```
     
-6. open index.html in browse ,in console you will see "ZT" 
+```
+ open index.html in browse ,in console you will see "ZT" 
+ 
+```
